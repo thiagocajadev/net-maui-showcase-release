@@ -11,7 +11,7 @@
   <a href="https://mudblazor.com"><img src="https://img.shields.io/badge/mudblazor-9.7.0-594AE2?style=flat-square" alt="MudBlazor" /></a>
   <a href="https://learn.microsoft.com/ef/core/"><img src="https://img.shields.io/badge/sqlite-ef_core_10-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite via EF Core 10" /></a>
   <br>
-  <img src="https://img.shields.io/badge/version-0.2.0-blue?style=flat-square" alt="Versão 0.2.0" />
+  <img src="https://img.shields.io/badge/version-1.1.0-blue?style=flat-square" alt="Versão 1.1.0" />
   <a href="../../releases/latest/download/maui-showcase-windows-setup.exe"><img src="https://img.shields.io/badge/baixar-Windows-0078D4?style=flat-square&logo=windows&logoColor=white" alt="Baixar para Windows" /></a>
   <a href="../../releases/latest/download/maui-showcase-android.apk"><img src="https://img.shields.io/badge/baixar-Android-3DDC84?style=flat-square&logo=android&logoColor=white" alt="Baixar para Android" /></a>
 </div>
@@ -21,7 +21,7 @@
 Espelho público de distribuição do **net-maui-showcase**. Aqui moram só os
 binários; o código-fonte vive no repositório de desenvolvimento.
 
-> **Versão publicada: v0.2.0**
+> **Versão publicada: v1.1.0**
 >
 > Este repositório guarda **uma versão só**. Cada publicação apaga a release e a
 > tag anteriores, então o que está em [Releases](../../releases/latest) é sempre o
@@ -53,6 +53,20 @@ vão embutidos, nada precisa ser instalado antes.
 **Android.** O APK é assinado com certificado autoassinado, o suficiente para
 instalar e sem custo. O sistema vai pedir para autorizar a instalação a partir
 do aplicativo que abriu o arquivo.
+
+## Atualizar de uma versão anterior
+
+Como este repositório guarda uma versão só, quem volta aqui já tem a anterior
+instalada. Baixe e abra normalmente: **não é preciso desinstalar antes**.
+
+No Windows o instalador reconhece a instalação anterior pelo identificador do
+aplicativo, troca os arquivos e mantém um atalho só. Ele remove o que a versão
+nova não usa mais, então nada de sobra se acumula a cada atualização. Feche o
+aplicativo antes de rodar o instalador; se estiver aberto, ele pede para fechar.
+
+No Android o sistema instala por cima, porque cada versão publicada carrega um
+número de versão maior que o da anterior e o pacote é assinado sempre com a
+mesma chave. O ícone, o nome e os dados do aplicativo continuam os mesmos.
 
 ## O aplicativo
 
